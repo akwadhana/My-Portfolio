@@ -4,8 +4,6 @@ import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
-import CustomButton from "../Components/Button";
-import Modal from "../Components/Modal";
 import DownloadLink from "../Components/DownloadLink";
 
 

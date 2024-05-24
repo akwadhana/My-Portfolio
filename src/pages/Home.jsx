@@ -5,7 +5,7 @@ import picture1 from "../assets/images/man.jpg";
 import About from "./About";
 import Services from "./Services";
 import Together from "./Together";
-import DownloadLink from "../Components/DownloadLink";
+
 
 const Home = () => {
 
@@ -39,7 +39,6 @@ const Home = () => {
       </div>
       <About />
       <Services />
-     
       <Together />
     </div>
   );

@@ -1,9 +1,8 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { Route,Routes } from 'react-router-dom';
-import Together from './Together';
- 
+
+
 
 const Contact = () => {
   const validationSchema = Yup.object({

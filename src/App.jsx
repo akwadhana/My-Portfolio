@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Modal from './Components/Modal';
-import Together from './pages/Together';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';

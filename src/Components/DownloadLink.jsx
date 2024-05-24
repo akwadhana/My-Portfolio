@@ -17,7 +17,7 @@ const DownloadLink = ({label,style}) => {
       onClick={downloadFile}
     >
 
-      Download File
+      CV Download
     </button>
     
   );
