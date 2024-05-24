@@ -19,7 +19,7 @@ const NavBar = () => {
         <Link to="/" className='md:ml-5' onClick={() => setIsOpen(false)}>Home</Link>
         <Link to="/about" className='md:ml-5' onClick={() => setIsOpen(false)}>About Me</Link>
         <Link to="/resume" className='md:ml-5' onClick={() => setIsOpen(false)}>Resume</Link>
-        <Link to="/project" className='md:ml-5' onClick={() => setIsOpen(false)}>Project</Link>
+        <Link to="/contact" className='md:ml-5' onClick={() => setIsOpen(false)}>Contact</Link>
       </div>
     </div>
   );

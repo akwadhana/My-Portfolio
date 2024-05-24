@@ -7,6 +7,7 @@ import Modal from './Components/Modal';
 import Together from './pages/Together';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
  

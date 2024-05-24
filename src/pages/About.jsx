@@ -6,6 +6,8 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import CustomButton from "../Components/Button";
 import Modal from "../Components/Modal";
+import DownloadLink from "../Components/DownloadLink";
+
 
 
 const About = () => {
@@ -59,11 +61,14 @@ const About = () => {
                     <p>React.JS</p>
                 </div>
             </div>
+          
             <div className="flex justify-center lg:mr-[350px] mt-5">
-                <CustomButton
-                    label="Download CV"
-                    style={{ marginTop: "10px", padding: "10px 20px "  }} />
+            <DownloadLink
+            label="Download CV"
+            style={{ marginTop: "10px", padding: "10px 20px "  }} />
+                   
             </div>
+         
         </div>
     );
 };
